@@ -1,0 +1,8 @@
+- name: My first play
+  hosts: mymanagednodes
+  tasks:
+   - name: Create file /armin
+     ansible.builtin.file:
+       path: /noah
+       state: touch
+
